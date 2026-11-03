@@ -1,0 +1,6 @@
+{
+  "name": "LoRa GPS Ground Control Station",
+  "description": "Real-time GCS dashboard for ESP32 LoRa GPS telemetry with Leaflet interactive map, WebSerial support, Python bridge, and HUD metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
