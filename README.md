@@ -179,10 +179,47 @@ configurations permitted by the applicable regulations in your location.
 This prototype should not be treated as a certified aviation safety or
 collision-avoidance system.
 
-## Author
+## Hardware Specifications
 
-**Ranjith**\
-M.Sc. Electronics
+### Transmitter Unit
+
+The transmitter unit uses a LILYGO LoRa GPS board
+for GPS-based location acquisition and wireless telemetry.
+
+| Parameter | Specification |
+|---|---|
+| Hardware Platform | LILYGO LoRa GPS Board |
+| Microcontroller | ESP32 |
+| GPS | Integrated GPS Receiver |
+| Communication | LoRa |
+| Operating Frequency | 433 MHz |
+| Function | GPS Data Acquisition and Transmission |
+
+### Receiver Unit
+
+The receiver consists of an ESP32 microcontroller
+interfaced with an Ai-Thinker RA-02 LoRa module.
+
+| Parameter | Specification |
+|---|---|
+| Microcontroller | ESP32 |
+| LoRa Module | Ai-Thinker RA-02 |
+| RF Transceiver | SX1278 |
+| Operating Frequency | 433 MHz |
+| Communication Interface | SPI |
+| Logic Voltage | 3.3 V |
+| Function | Wireless Telemetry Reception and Processing |
+
+### LoRa Communication Specifications
+
+| Parameter | Specification |
+|---|---|
+| Communication Technology | LoRa |
+| Frequency | 433 MHz |
+| Modulation | LoRa |
+| Transmit Power | Configuration Dependent |
+| Receiver Sensitivity | Configuration Dependent |
+| Communication Type | Wireless RF |
 
 ------------------------------------------------------------------------
 
